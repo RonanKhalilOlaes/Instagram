@@ -1,0 +1,44 @@
+.log-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+
+.container-one {
+    border: 1px solid;
+    border-radius: 1px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: center;
+}
+
+
+.title {
+    background-image: url(title.png);
+    background-position: 0px 0px;
+    background-size: 176px 186px;
+    width: 174px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}

@@ -1,0 +1,231 @@
+body {
+    background-color: #ffffff;
+}
+
+.main-container {
+
+    display: flex;
+    justify-content: center;
+
+    padding: 5em 0px 0px 0px;
+}
+
+.picture {
+    display: flex;
+    padding-right: 1em ;
+    
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+
+}
+
+.container-two {
+    border: 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.info {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    
+}
+
+input[type=text] {
+
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.title {
+   
+    background-image: url(title.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 176px 186px;
+
+    display: block;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+        
+    width: 174px;
+    height: 50px;
+
+}
+
+.text-user {
+    
+    align-items: center;
+    box-sizing:border-box;
+    
+    position: relative;
+
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+.text-pass {
+    
+    align-items: center;
+    box-sizing:border-box;
+    
+    position: relative;
+
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+.button {
+
+    background-color: #47afff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+
+    font-style: bold;
+    font-size: 30px;
+
+    justify-content: center;
+
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    
+    width: 100%;
+}
+
+.or {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.face {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+.account {
+
+    align-content: center;
+    
+   border: 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+    padding: 1em;
+
+    text-align: center;
+    width: 100%;
+}
+
+.acc {
+    text-align: center;
+}
+
+.main-container-two {
+    border-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+
+
+/*
+The Media Query
+*/
+
+/*
+ipad Air
+*/
+
+@media (max-width: 820px) {
+
+.picture {
+    display: none;
+}
+
+.main-container {
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;    
+}
+
+.footer {   
+    background-image: url(footer.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0em;
+    width: 50%;
+}
+
+
+
+}
+
+/*
+iphone XR
+*/
+
+@media (max-width: 414px) {
+    .picture {
+        display: none;
+    }
+    
+    .main-container {
+        justify-content: center;
+        
+    }
+
+    .footer {
+        display: none;
+        background-image: url(footerphone.png);
+    }
+}
